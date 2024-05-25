@@ -3,7 +3,7 @@ import "./signin.css"
 const Signin = () => {
   return (
     <div className="cover">
-      <div className="register">
+      <div className="signin">
         <div className="form-part">
           <h1>Sign In</h1>
           <img src="./images/Mainicon.svg" />
@@ -21,9 +21,9 @@ const Signin = () => {
           <p>
             Register With Your Personal Details To <br /> Use All Features
           </p>
-          <button type="button" className="btn btn-primary register-btn">
+          <Link to="/" type="button" className="btn btn-primary register-btn">
             SIGN UP
-          </button>
+          </Link>
         </div>
       </div>
     </div>

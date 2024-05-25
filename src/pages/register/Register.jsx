@@ -10,6 +10,7 @@ const Register = () => {
                     <p>Enter Your Personal Details To <br/> Create Account</p>
                     <Link to="/signin" type="button" className="btn btn-primary register-btn">SIGN IN</Link>
                 </div>
+                
                 <div className="form-part">
                     <h1>Create Account</h1>
                     <img src="./images/Mainicon.svg" />

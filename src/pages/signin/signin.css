@@ -14,7 +14,7 @@
     height: 100vh;
 }
 
-.register {
+.signin {
     display: flex;
     width: 60%;
     height: 80%;
@@ -22,7 +22,7 @@
     border-radius: 20px;
 }
 
-.register .welcome-part {
+.signin .welcome-part {
     background: linear-gradient(270deg, #2D388A 0%, #00AEEF 100%);
     width: 50%;
     border-radius: 80px 20px 20px 80px;
@@ -32,7 +32,7 @@
     padding: 40px 10px;
 }
 
-.welcome-part h1 {
+.signin .welcome-part h1 {
     font-size: 45px;
     -webkit-background-clip: text;
     color: transparent;
@@ -41,7 +41,7 @@
     margin-top: 100px;
 }
 
-.welcome-part p{
+.signin .welcome-part p{
     color: white;
     text-align: center;
     margin-top: 0;
@@ -50,7 +50,7 @@
     font-weight: 100;
 }
 
-.register-btn{
+.signin .register-btn{
     background-color: #1184CB;
     color: white;
     margin-top: 20px;
@@ -62,12 +62,12 @@
     border: 1px solid whitesmoke;
 }
 
-.register-btn:hover {
+.signin .register-btn:hover {
     border: none;
     opacity: 0.8;
 }
 
-.form-part {
+.signin .form-part {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,24 +76,24 @@
     border-radius: 20px;
 }
 
-.form-part h1 {
+.signin .form-part h1 {
     margin-top: 70px;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 10px;
 }
 
-.form-part img {
+.signin .form-part img {
     width: 150px;
 }
 
-.form-part p {
+.signin .form-part p {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 10px;
 }
 
-.form-input {
+.signin .form-input {
     margin: 10px 0;
     padding: 15px 15px;
     width: 70%;
@@ -102,7 +102,7 @@
     background-color: #BFCED3;
 }
 
-.form-input::placeholder {
+.signin .form-input::placeholder {
     font-size: 15px;
 }
 
