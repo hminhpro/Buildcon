@@ -1,0 +1,24 @@
+#footer {
+    background: linear-gradient(90deg, #2d388a 0%, #00aeef 100%);
+    padding: 60px 0;
+  }
+  
+  #footer .page-icon {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  #footer .page-name {
+    color: #25c4ff;
+  }
+  
+  #footer .contact-us {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  
+  #footer .contact-us ul {
+    margin: 0;
+  }
